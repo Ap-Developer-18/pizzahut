@@ -93,3 +93,6 @@
 .text-dark-copy {
   color: var(--text-dark-copy);
 }
+.bg-green{
+background-color: var(--green) !important;
+}
