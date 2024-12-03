@@ -14,15 +14,17 @@
   --fs-6xl: 115px;
   /* Line Height */
   --leading-100: "100%";
+  --leading-140: "140%";
   --leading-150: "150%";
   --leading-180: "180%";
   /* Colors */
   --white: #ffffff;
   --dark: #000000;
   --green: #067a52;
-  --green-dark: #01573B;
-  --red: #DA291C;
-  --dark-red: #BC1B1B;
+  --green-dark: #01573b;
+  --red: #da291c;
+  --dark-red: #bc1b1b;
+  --text-dark-copy: #0e0e0e;
 }
 
 .ff-ball {
@@ -60,6 +62,9 @@
 .leading-100 {
   line-height: var(--leading-100);
 }
+.leading-140 {
+  line-height: var(--leading-140);
+}
 .leading-150 {
   line-height: var(--leading-150);
 }
@@ -84,4 +89,7 @@
 }
 .dark-red {
   color: var(--dark-red);
+}
+.text-dark-copy {
+  color: var(--text-dark-copy);
 }
