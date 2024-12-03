@@ -1,0 +1,100 @@
+@import url("../css/root.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Luckiest Guy", cursive;
+}
+.gap-40 {
+  gap: 40px;
+}
+.pt-forty {
+  padding-top: 40px;
+}
+/************************************************ HEADER *******************************************/
+.image-property {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.btn-property {
+  outline: none;
+  border: none;
+  background-color: unset;
+}
+.header {
+  background-image: url("../images/png/hero-bg.png");
+  background-position: top;
+}
+.main-btn {
+  background-image: url("../images/png/button-bg.png");
+  width: 262px;
+  height: 75px;
+}
+.custom-select {
+  cursor: pointer;
+  border: none;
+  width: 89px;
+  height: 51px;
+}
+.custom-select:hover {
+  padding: 10px;
+  background-color: var(--white);
+}
+.arrow {
+  transition: transform 0.3s ease;
+}
+.custom-options {
+  display: none;
+  left: 0;
+  background-color: var(--white);
+  z-index: 10;
+  top: 51px;
+}
+.custom-select.open .custom-options {
+  display: block;
+}
+.dropdown-item {
+  padding: 12px !important;
+}
+.common-social-svg {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pepe-rummy-logo {
+  margin-top: 136px;
+  max-width: 777px;
+  pointer-events: none;
+}
+.bike {
+  margin-top: 68px;
+  max-width: 311px;
+}
+.cut-pizza {
+  max-width: 1440px;
+  pointer-events: none;
+  bottom: -32px;
+}
+.white-gradient {
+  background: var(--red);
+}
+
+/* Keyframe animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+  background-color: var(--red);
+   padding: 30px 0px;
+  border: 4px solid var(--dark);
+  border-width: 4px 0px !important;
+}
