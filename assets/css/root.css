@@ -13,10 +13,10 @@
   --fs-5xl: 80px;
   --fs-6xl: 115px;
   /* Line Height */
-  --leading-100: "100%";
-  --leading-140: "140%";
-  --leading-150: "150%";
-  --leading-180: "180%";
+  --leading-100: 100%;
+  --leading-140: 140%;
+  --leading-150: 150%;
+  --leading-180: 180%;
   /* Colors */
   --white: #ffffff;
   --dark: #000000;

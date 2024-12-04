@@ -126,7 +126,7 @@
   max-width: 715px;
 }
 .pizza-guy {
-  top: 8px;
+  top: 22px;
   left: 50%;
   transform: translateX(-50%) rotate(-4deg);
   -webkit-text-stroke: var(--dark);
@@ -172,10 +172,45 @@
 }
 .red-rotate {
   left: 50%;
-  top: 83px;
+  top: 62px;
   transform: translate(-50%);
 }
-
+.pizza-or-box {
+  max-width: 1086px !important;
+  height: fit-content !important;
+  top: 148px;
+}
+.your-wallet-one {
+  padding: 50px 16px 20px 16px;
+  background: var(--white);
+  border: 4px solid #000000;
+  height: fit-content;
+}
+.wallet-p {
+  max-width: 282px;
+}
+.one-common-box {
+  padding: 11.27px 15.82px;
+  background-color: var(--dark);
+  top: -51px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-4.99deg);
+}
+.your-wallet-one-common {
+  top: 125px;
+}
+.pizza-animation {
+  max-width: 1220px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.how-to-buy {
+  background-image: url("../images/png/buy-pizza-bg.png");
+  background-position: top !important;
+  height: 985px;
+  max-width: 1440px;
+  top: 123px;
+}
 @media (min-width: 1440px) {
   .width-xl {
     max-width: 2250px !important;
