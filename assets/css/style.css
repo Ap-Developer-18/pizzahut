@@ -203,6 +203,7 @@
   max-width: 1220px;
   left: 50%;
   transform: translateX(-50%);
+  bottom: 0;
 }
 .how-to-buy {
   background-image: url("../images/png/buy-pizza-bg.png");
